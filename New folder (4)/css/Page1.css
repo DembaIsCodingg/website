@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap%22");
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* header*/
+
+header,footer{
+    background-color: rgba(2, 38, 59, 0.727);
+}
+header h1{
+    text-align: start;
+}
+ a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: lightblue;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around ;
+  
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 20px;
+
+}
+
+
+/*section 1 */
+.first-section {
+    background-color: rgba(2, 38, 59, 0.727);
+    padding: 30px;
+
+}
+
+.first-section a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card {
+    border: none;
+}
+
+
+    .incrivez-btn {
+        background-color: red;
+        border:1px solid white;
+    }
+
+    .blanc {
+        color: white;
+    }
+    
+    .vert {
+        color: rgb(113, 189, 152) 
+    }
+    
+/*section2*/
+.info{
+    padding: 80px;
+}
+
+.info a {
+    color: black;
+}
+
+
+/*Conferencier*/
+
+.conference-info{
+    padding: 30px;
+}
+
+.degrade{
+    background: linear-gradient(to right,rgba(0, 255, 136, 0.604), rgb(255, 243, 192));
+    padding: 20px;
+}
+
+.image-container{
+    position: relative; 
+    z-index:99
+}
+
+.image-container img{
+    margin-bottom: -50px; 
+    width:120px; 
+    margin-left:100px;
+    border-radius: 50%;
+}
+
+.conferencier{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+     padding-top: 80px; 
+     padding-left:80px; 
+     padding-right:80px;
+      padding-bottom:5px;
+    
+}
+
+.conferencier a {
+    color: black;
+}
+.conference-info{
+    padding: 30px;
+}
+
+
+.image-container ul{
+    list-style: none;
+    width: 300px;
+}
+
+.main{
+    padding: 60px 0px;
+}
+.main section{
+    padding: 30px;
+}
+
+
+/*Programme*/
+td{
+    border-bottom: 1px solid;
+    padding:15px
+}
+
+table{
+    margin-top: 30px;
+}
+
+table a{
+    color:black
+}
+
+.espace{
+    width: 60%;
+     margin:auto
+}
+
+/*Venue*/
+.direction a{
+    color: rgb(113, 189, 152) ;
+  
+}
+
+iframe{
+    padding: 30px;
+    
+}
